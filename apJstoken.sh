@@ -29,4 +29,4 @@ nuclei -l Js_onfilter.txt -t ~/.local/nuclei-templates/token-spray > Lastfilter.
 
 printf "\n\n"
 
-echo "$(tput bold)Thanks for use ApJsToken-Tool " 
+echo "$(tput bold)Thanks for use ApJsToken-Tool ... Follow me on Twitter @MohsenJamall" 
