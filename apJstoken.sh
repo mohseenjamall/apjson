@@ -2,7 +2,7 @@
 
 figlet "ApJsToken-Tool"
 
-printf "By:BlaxkRaven\n\n"
+printf "By:Bl@xkR@ven\n\n"
 
 printf "Don't forget your URL like this 'https://www.example.com'\n"
 
