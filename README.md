@@ -2,20 +2,6 @@
 Get sensitive JS,API,TOKEN,PASSWORD inside JSON,JS files.
 
 
-# Tools you have to use ApJsToken!!
-1. gospider [https://github.com/jaeles-project/gospider]
-2. nuclei [https://github.com/projectdiscovery/nuclei]
-
-
-
-
-
-
-
-
-
-
-
 
 
 ##### copy Link you need to check and let it get the result
