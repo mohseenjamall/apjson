@@ -25,24 +25,25 @@ Follow these steps to set up apjsonon on your system:
 1. **Clone the Repository**:
    bash
    git clone https://github.com/mohseenjamall/apjson
-   cd apjsonon
+   cd apjsono
 
 2. # Install katana and nuclei via Go
-	go install github.com/projectdiscovery/katana/cmd/katana@latest
-	go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+	`go install github.com/projectdiscovery/katana/cmd/katana@latest`
+	
+	`go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest`
 
 	# Install curl and awk (usually pre-installed on Linux)
-	sudo apt-get install curl awk  # On Ubuntu/Debian
+	`sudo apt-get install curl awk`  # On Ubuntu/Debian
 	# OR
-	sudo yum install curl awk     # On CentOS/RHEL
+	`sudo yum install curl awk`   # On CentOS/RHEL
 
 	# Add Go binaries to PATH
-	export PATH=$PATH:$(go env GOPATH)/bin
-
-3. chmod +x apjsonon.sh
+	`export PATH=$PATH:$(go env GOPATH)/bin`
+	
+	`chmod +x apjsonon.sh`
 
 ##  🚀 Usage
-	./apjson.sh
+	`./apjson.sh`
 
 	Input: Enter a valid URL (e.g., https://books.toscrape.com).
 	Process:
