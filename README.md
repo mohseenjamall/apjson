@@ -27,18 +27,20 @@ Follow these steps to set up apjsonon on your system:
    git clone https://github.com/mohseenjamall/apjson
    cd apjsono
 
-2. # Install katana and nuclei via Go
-	`go install github.com/projectdiscovery/katana/cmd/katana@latest`
+2. ## Install katana and nuclei via Go
+
+	go install github.com/projectdiscovery/katana/cmd/katana@latest
 	
-	`go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest`
+	go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
-	# Install curl and awk (usually pre-installed on Linux)
-	`sudo apt-get install curl awk`  # On Ubuntu/Debian
-	# OR
-	`sudo yum install curl awk`   # On CentOS/RHEL
+	## Install curl and awk (usually pre-installed on Linux)
+	sudo apt-get install curl awk  # On Ubuntu/Debian
+	## OR
+	sudo yum install curl awk   # On CentOS/RHEL
 
-	# Add Go binaries to PATH
-	`export PATH=$PATH:$(go env GOPATH)/bin`
+	## Add Go binaries to PATH
+
+	export PATH=$PATH:$(go env GOPATH)/bin
 	
 	`chmod +x apjsonon.sh`
 
@@ -52,7 +54,7 @@ Follow these steps to set up apjsonon on your system:
 	Analyzes downloaded files with nuclei for vulnerabilities (if files exist).
 	Output: Results are saved in a folder named [target]_[timestamp] (e.g., books_20250223_045008).
 
-## ُExample Run
+## Example Run
 
 	$ ./apjson.sh
 	Enter target URL: https://books.toscrape.com
